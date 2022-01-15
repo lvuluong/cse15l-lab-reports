@@ -2,7 +2,7 @@
 
 ## Step 1: Installing VS Code
 
-Goggle for "Visual Studio Code" or "VS code" and it will be the first link, go to it and click the blue download at the top right corner to get to this page. Then download the VS Code based on what computer you use.
+Google for "Visual Studio Code" or "VS code" and it will be the first link, go to it and click the blue download at the top right corner to get to this page. Then download the VS Code based on what computer you use.
 ![VS code download page](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab1/downloadvscode.JPG)
 You should be able to see this page when you first open VS Code with no file.
 ![Opening VS code](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab1/vs.JPG)
