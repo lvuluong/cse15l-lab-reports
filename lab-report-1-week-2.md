@@ -31,7 +31,7 @@ Once you have successfully connect remotely to the UCSD server, try out some com
 You should be able to run these command while the last 2 you shouldn't be able to run since you do not have access to it so that is normal to happen.
 ## Step 4: Moving Files with scp
 
-In order to move files from your computer to your server, you use the command scp. Specifically, in the context (scp [filename] cs15lwi22[your own 3 unique letter]@ieng6.ucsd.edu:~/). An example of this is | scp WhereAmI.java cs15lwi22abc@ieng6.ucsd.edu:~/ |. 
+In order to move files from your computer to your server, you use the command scp. Specifically, in the context (scp [filename] cs15lwi22[your own 3 unique letter]@ieng6.ucsd.edu:~/).
 
 ![Using SCP](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab1/scp.JPG)
 
