@@ -1,7 +1,9 @@
-# 15L Lab Week 2
-**Name:** *Vu "Bob The Builder" Luong*
+# Class 15L Lab Reports
 
+**Name:** Vu Luong
 
-## I want $$
+**Professor:** Joe Politz
+
+**Winter Quarter 2021** 
 
 [Lab Report 1](lab-report-1-week-2.html)

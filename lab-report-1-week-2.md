@@ -1,3 +1,4 @@
-Hello World
+# Lab Report 1: 
 
-![Image](C:\Users\lvulu\OneDrive\Documents\GitHub\cse15l-lab-reports\vs.JPG)
+## Step 1: Installing VS Code
+![Screenshot 1](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/vs.JPG)
