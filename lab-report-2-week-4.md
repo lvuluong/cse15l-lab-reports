@@ -20,9 +20,7 @@ So the failure-inducing input in this case is `test-file4.md` which tried to cre
 
 The Problem:
 
-![Output of test-file 3](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab2/t3.JPG)
-
-![Output of test-file 4]()
+![Output of all 3 test-files]()
 
 [This is the test file that causes the problem](https://github.com/lvuluong/markdown-parse/blob/main/test-file4.md)
 
