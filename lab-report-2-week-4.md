@@ -28,7 +28,7 @@ The Changes to fix the problem:
 
 ![Code Changes 2](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab2/l2.JPG)
 
-For `test-file 3` which is the new **failure-inducing input**, it has a `()` inside the `()` which is why the **symptom** print out `[https://somet(hi]` without actually printing out the full link. Therefore, the **bug** that causes this **symptom** is that the code doesn't taken into account what if the link inside the `()` have another `()` and that the **bug** only prints out whatever is in the first `()` that it found which is what the **symptom** is.
+For `test-file 3` which is the new **failure-inducing input**, it has a `()` inside the `()` which is why the **symptom** print out `[https://somet(hi]` without actually printing out the full link. Therefore, the **bug** that causes this **symptom** is that the code doesn't taken into account what if the link inside the `()` have another `()` and that the **bug** only prints out whatever is in the first `()` that it found which causes the **symptom** when a markdown file like `test-file 3` is run.
 
 ---
 
