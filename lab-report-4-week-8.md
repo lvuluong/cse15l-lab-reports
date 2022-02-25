@@ -26,9 +26,6 @@
 
 ![Result of Running jUnit Tests](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab4/commandLineFailure.JPG)
 
-The circles in red is the lines that causes the jUnit Tests to fail, which is shown on the command line where it expected one
-thing but was outputed something else which causes the jUnit Test to fail.
-
 ### Questions:
 
 Question 1: No, I believed that not possible for a small code changes to 
@@ -41,11 +38,9 @@ Question 3: No, I believed that its not possible for a small code change to make
 
 ## The Repository I Reviewed:
 
-![The jUnit Tests I wrote](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab4/Test2ForReport.JPG)
+![The jUnit Tests I wrote](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab4/TestForReport4.JPG)
 
 ![Result of Running jUnit Tests on the Repository I reviewed](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab4/commandLineFailure2.JPG)
-
-The circles in red is the lines that causes the jUnit to fail since it was expected one thing but the output from the program gave a different output, meaning that they were not equal, thus causing the jUnit to fail.
 
 ### Questions:
 
