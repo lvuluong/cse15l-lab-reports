@@ -16,8 +16,11 @@ then I just find the specific lines to find out what test cases it is.
 > **Test 194 is the one with the 212c212**. And in this case, the markdown-parse by Joe return `url` while my markdown-parse return nothing.
 
 
-### Expectation of what Test 194 should be:
-![Expectation of what Test 194 should be](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/expect1.JPG)
+### Expectation of what Test 194 should return:
+
+`[title (with parens)]`
+
+### My Personal MarkdownParse:
 
 ![My personal MarkdownParse](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/mycode.JPG)
 
