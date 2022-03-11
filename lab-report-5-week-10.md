@@ -19,3 +19,6 @@ then I just find the specific lines to find out what test cases it is.
 ### Expectation of what Test 194 should be:
 ![Expectation of what Test 194 should be](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/expect1.JPG)
 
+![My personal MarkdownParse](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/mycode.JPG)
+
+So in this case, both implementation actually is incorrect. The bug that is happening in my personal Markdown-parse is that 
