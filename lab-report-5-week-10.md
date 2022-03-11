@@ -16,13 +16,13 @@ then I just find the specific lines to find out what test cases it is.
 *the markdown-parse by Joe return `/url` while my markdown-parse return nothing.*
 
 ### Expectation of what Test 579 should return:
-`/url2`
+`[]`
 
 ### My Personal MarkdownParse:
 
 ![My personal MarkdownParse](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/mycode.JPG)
 
-So in this case, both implementation actually is incorrect. The bug that is happening in my personal Markdown-parse is that my code is not taking into account what happen when there is a image link within the `[]` of a link. Specifically, it is that there is a set of `()` within my `[]` so my code is not working. To fix this, I would have to change the `if` statement form line 21 to line 31, and maybe change to a while loop so that it sure to check for any nested link within the `[]`. 
+So in this case, both implementation is incorrect since my code is returning nothing not because it find out that its not a url but because one of the variable became invalid during the 2nd while loop, causing it to break and return nothing. The bug that is happening in my personal Markdown-parse is that my code is not taking into account what happen when there is a image link within the `[]` of a link. Specifically, it is that there is a set of `()` within my `[]` so my code is returning the index of the `nextOpenBracket` as `-1` during its second loop which causes the loop to break and return nothing. To fix this, I would have to change the `if` statement from line 18 to line 21, so that it sure to check for any nested link within the `[]` and then based on that, do something about it. 
 
 ## Test 580:
 
@@ -30,7 +30,7 @@ So in this case, both implementation actually is incorrect. The bug that is happ
 
 ![Result of Test 580](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/diff2.JPG)
 
-*the markdown-parse by Joe return `/url` while my markdown-parse return nothing.*
+*the markdown-parse by Joe return `<url>` while my markdown-parse return nothing.*
 
 ### Expectation of what Test 580 should return:
 `[]`
