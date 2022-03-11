@@ -7,32 +7,32 @@ And then I use the line that it provided me, then I enter the `results.txt` file
 different when using `diff`. And then I enter `vim` to then use the command `set: number` to get the lines inside the `results.txt` file,
 then I just find the specific lines to find out what test cases it is.
 
-## Test 579:
+## Test Case 1:
 
-### Result of Test 579:
+### Result:
 
-![Result of Test 579](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/Differen1.JPG)
+![Result](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/Differen1.JPG)
 
 *the markdown-parse by Joe return `/url` while my markdown-parse return nothing.*
 
-### Expectation of what Test 579 should return:
+### Expectation of what should be return:
 `[]`
 
 ### My Personal MarkdownParse:
 
 ![My personal MarkdownParse](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/mycode.JPG)
 
-So in this case, both implementation is incorrect since my code is returning nothing not because it find out that its not a url but because one of the variable became invalid during the 2nd while loop, causing it to break and return nothing. The bug that is happening in my personal Markdown-parse is that my code is not taking into account what happen when there is a image link within the `[]` of a link. Specifically, it is that there is a set of `()` within my `[]` so my code is returning the index of the `nextOpenBracket` as `-1` during its second loop which causes the loop to break and return nothing. To fix this, I would have to change the `if` statement from line 18 to line 21, so that it sure to check for any nested link within the `[]` and then based on that, do something about it. 
+So in this case, both implementation is incorrect since my code is returning nothing because one of the variable became invalid during the 2nd while loop, causing it to break and return nothing. The bug that is happening in my personal Markdown-parse is that my code is not taking into account what happen when there is a image link within the `[]` of a link. Specifically, it is that there is a set of `()` within my `[]` so my code is returning the index of the `nextOpenBracket` as `-1` during its second loop which causes the loop to break and return nothing. To fix this, I would have to change the `if` statement from line 18 to line 21, so that it sure to check for any nested link within the `[]` and then based on that, do something about it. 
 
-## Test 580:
+## Test Case 2:
 
-### Result of Test 580:
+### Result:
 
-![Result of Test 580](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/diff2.JPG)
+![Result 2](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/diff2.JPG)
 
 *the markdown-parse by Joe return `<url>` while my markdown-parse return nothing.*
 
-### Expectation of what Test 580 should return:
+### Expectation of what should be return:
 `[]`
 
 ### [Joe's MarkdownParse](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/MarkdownParse.java)
