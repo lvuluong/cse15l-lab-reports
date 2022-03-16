@@ -37,7 +37,7 @@ So in this case, both implementation is incorrect since my code is returning not
 
 ### Joe's MarkdownParse:
 
-![Joe's MarkdownParse](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/mycode.JPG)
+![Joe's MarkdownParse](https://raw.githubusercontent.com/lvuluong/cse15l-lab-reports/main/PicsForLab5/joe's%20code.JPG)
 
 So in this case, Joe's implementation was incorrect and my implemtation return
 the correct output as the expected output. So the bug that is happening in Joe's code is that the code returning the thing inside the `()` even though it shouldn't since it is for an image. And in test case 580, it is a image: `![foo](<url>)`. So to fix this bug, I would add new code after line 57 to make sure that it checks that the character before that `[` isn't a `!` since if it is, then it would be an image format and we don't want to return the things inside the `()` since it is not a url.
